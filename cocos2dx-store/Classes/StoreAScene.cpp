@@ -56,7 +56,7 @@ CCScene* StoreAScene::scene()
 // on "init" you need to initialize your instance
 bool StoreAScene::init()
 {
-	cocos2dx_StoreController::storeOpening();
+	cocos2dx_StoreController::getInstance()->storeOpening();
 		
 	//////////////////////////////
 	// 1. super init first
@@ -123,7 +123,7 @@ bool StoreAScene::init()
 
 void StoreAScene::menuBackCallback(CCObject* pSender)
 {
-	cocos2dx_StoreController::storeClosing();
+	cocos2dx_StoreController::getInstance()->storeClosing();
 		
 	CCScene *s = MainScene::scene();
 	CCDirector::sharedDirector()->setDepthTest(true);
@@ -151,7 +151,7 @@ void StoreAScene::menuChooseCallback(CCObject* pSender)
 		int tag = item->getTag();
 		string itemId = itemIdFromTag(tag);
 		try{
-			cocos2dx_StoreController::buyVirtualGood(itemId.c_str());
+			cocos2dx_StoreController::getInstance()->buyVirtualGood(itemId.c_str());
 		}
 		catch (cocos2dx_VirtualItemNotFoundException& e) {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)

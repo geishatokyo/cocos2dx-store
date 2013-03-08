@@ -131,7 +131,7 @@ void StoreBScene::menuChooseCallback(CCObject* pSender)
 			if (tag == 0) {
 				
 			} else {
-				cocos2dx_StoreController::buyMarketItem(productId);
+				cocos2dx_StoreController::getInstance()->buyMarketItem(productId);
 			}
 		}
 		catch (cocos2dx_VirtualItemNotFoundException& e) {
