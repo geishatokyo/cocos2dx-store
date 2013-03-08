@@ -16,7 +16,7 @@
 
 #include "MainScene.h"
 #include "StoreAScene.h"
-#include "StoreBridge/cocos2dx_StoreController.h"
+#include "cocos2dx_StoreController.h"
 
 USING_NS_CC;
 

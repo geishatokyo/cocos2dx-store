@@ -16,8 +16,8 @@
 
 #include "AppDelegate.h"
 #include "MainScene.h"
-#include "StoreBridge/cocos2dx_StoreController.h"
-#include "StoreBridge/cocos2dx_EventHandlers.h"
+#include "cocos2dx_StoreController.h"
+#include "cocos2dx_EventHandlers.h"
 
 USING_NS_CC;
 

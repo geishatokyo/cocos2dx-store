@@ -76,6 +76,10 @@
 		C0EFC96F168B7ED300948037 /* UIDevice-IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EFC96D168B7ED300948037 /* UIDevice-IdentifierAddition.m */; };
 		C0EFC972168B7EE000948037 /* NSData-Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EFC971168B7EE000948037 /* NSData-Base64.m */; };
 		C0EFC975168B7F0500948037 /* ObscuredNSUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C0EFC974168B7F0500948037 /* ObscuredNSUserDefaults.m */; };
+		CD0B95A916E9D443004328F7 /* cocos2dx_EventHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0B959716E9D442004328F7 /* cocos2dx_EventHandlers.cpp */; };
+		CD0B95AA16E9D443004328F7 /* cocos2dx_StoreController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A116E9D442004328F7 /* cocos2dx_StoreController.mm */; };
+		CD0B95AB16E9D443004328F7 /* cocos2dx_StoreInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A216E9D442004328F7 /* cocos2dx_StoreInfo.mm */; };
+		CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -213,6 +217,18 @@
 		C0EFC971168B7EE000948037 /* NSData-Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData-Base64.m"; sourceTree = "<group>"; };
 		C0EFC973168B7F0500948037 /* ObscuredNSUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObscuredNSUserDefaults.h; sourceTree = "<group>"; };
 		C0EFC974168B7F0500948037 /* ObscuredNSUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObscuredNSUserDefaults.m; sourceTree = "<group>"; };
+		CD0B959716E9D442004328F7 /* cocos2dx_EventHandlers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cocos2dx_EventHandlers.cpp; sourceTree = "<group>"; };
+		CD0B959816E9D442004328F7 /* cocos2dx_EventHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_EventHandlers.h; sourceTree = "<group>"; };
+		CD0B959916E9D442004328F7 /* cocos2dx_InsufficientFundsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_InsufficientFundsException.h; sourceTree = "<group>"; };
+		CD0B959A16E9D442004328F7 /* cocos2dx_NotEnoughGoodsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_NotEnoughGoodsException.h; sourceTree = "<group>"; };
+		CD0B959B16E9D442004328F7 /* cocos2dx_StoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreController.h; sourceTree = "<group>"; };
+		CD0B959C16E9D442004328F7 /* cocos2dx_StoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreInfo.h; sourceTree = "<group>"; };
+		CD0B959D16E9D442004328F7 /* cocos2dx_StoreInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreInventory.h; sourceTree = "<group>"; };
+		CD0B959E16E9D442004328F7 /* cocos2dx_VirtualItemNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_VirtualItemNotFoundException.h; sourceTree = "<group>"; };
+		CD0B959F16E9D442004328F7 /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Includes.h; sourceTree = "<group>"; };
+		CD0B95A116E9D442004328F7 /* cocos2dx_StoreController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreController.mm; sourceTree = "<group>"; };
+		CD0B95A216E9D442004328F7 /* cocos2dx_StoreInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreInfo.mm; sourceTree = "<group>"; };
+		CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreInventory.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +298,7 @@
 		C031BA871635BDBA005F73E3 /* cocos2dx-store */ = {
 			isa = PBXGroup;
 			children = (
+				CD0B958E16E9D441004328F7 /* cocos2dx-store */,
 				C031BA881635BDBA005F73E3 /* Resources */,
 				C031BAA01635BDBA005F73E3 /* ios */,
 				C031BD241635BDBD005F73E3 /* Classes */,
@@ -508,6 +525,33 @@
 			path = "UIDevice-UUID";
 			sourceTree = "<group>";
 		};
+		CD0B958E16E9D441004328F7 /* cocos2dx-store */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B959716E9D442004328F7 /* cocos2dx_EventHandlers.cpp */,
+				CD0B959816E9D442004328F7 /* cocos2dx_EventHandlers.h */,
+				CD0B959916E9D442004328F7 /* cocos2dx_InsufficientFundsException.h */,
+				CD0B959A16E9D442004328F7 /* cocos2dx_NotEnoughGoodsException.h */,
+				CD0B959B16E9D442004328F7 /* cocos2dx_StoreController.h */,
+				CD0B959C16E9D442004328F7 /* cocos2dx_StoreInfo.h */,
+				CD0B959D16E9D442004328F7 /* cocos2dx_StoreInventory.h */,
+				CD0B959E16E9D442004328F7 /* cocos2dx_VirtualItemNotFoundException.h */,
+				CD0B959F16E9D442004328F7 /* Includes.h */,
+				CD0B95A016E9D442004328F7 /* iOS */,
+			);
+			path = "cocos2dx-store";
+			sourceTree = "<group>";
+		};
+		CD0B95A016E9D442004328F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CD0B95A116E9D442004328F7 /* cocos2dx_StoreController.mm */,
+				CD0B95A216E9D442004328F7 /* cocos2dx_StoreInfo.mm */,
+				CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -639,6 +683,10 @@
 				C0EFC972168B7EE000948037 /* NSData-Base64.m in Sources */,
 				C0EFC975168B7F0500948037 /* ObscuredNSUserDefaults.m in Sources */,
 				C0A7ADE6169D97D800F4F029 /* NonConsumableItem.m in Sources */,
+				CD0B95A916E9D443004328F7 /* cocos2dx_EventHandlers.cpp in Sources */,
+				CD0B95AA16E9D443004328F7 /* cocos2dx_StoreController.mm in Sources */,
+				CD0B95AB16E9D443004328F7 /* cocos2dx_StoreInfo.mm in Sources */,
+				CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

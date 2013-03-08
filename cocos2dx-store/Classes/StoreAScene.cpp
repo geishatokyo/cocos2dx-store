@@ -18,10 +18,10 @@
 #include "GameMenuItem.h"
 #include "MainScene.h"
 #include "StoreBScene.h"
-#include "StoreBridge/cocos2dx_StoreController.h"
-#include "StoreBridge/cocos2dx_StoreInventory.h"
-#include "StoreBridge/cocos2dx_StoreInfo.h"
-#include "StoreBridge/Includes.h"
+#include "cocos2dx_StoreController.h"
+#include "cocos2dx_StoreInventory.h"
+#include "cocos2dx_StoreInfo.h"
+#include "Includes.h"
 
 #include <sstream> 
 #include <pthread.h>
