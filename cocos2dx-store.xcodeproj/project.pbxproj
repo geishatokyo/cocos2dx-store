@@ -195,7 +195,7 @@
 		C0C5F857167CDF0900620409 /* VirtualItemNotFoundException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualItemNotFoundException.m; sourceTree = "<group>"; };
 		C0C5F859167CDF0900620409 /* FBEncryptorAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBEncryptorAES.h; sourceTree = "<group>"; };
 		C0C5F85A167CDF0900620409 /* FBEncryptorAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBEncryptorAES.m; sourceTree = "<group>"; };
-		C0C5F85D167CDF0900620409 /* IStoreAsssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStoreAsssets.h; sourceTree = "<group>"; };
+		C0C5F85D167CDF0900620409 /* IStoreAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IStoreAssets.h; sourceTree = "<group>"; };
 		C0C5F85F167CDF0900620409 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		C0C5F860167CDF0900620409 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		C0C5F861167CDF0900620409 /* SoomlaiOSStore-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SoomlaiOSStore-Prefix.pch"; sourceTree = "<group>"; };
@@ -387,7 +387,7 @@
 				C0C5F850167CDF0900620409 /* EventHandling.m */,
 				C0C5F851167CDF0900620409 /* exceptions */,
 				C0C5F858167CDF0900620409 /* FBEncryptor */,
-				C0C5F85D167CDF0900620409 /* IStoreAsssets.h */,
+				C0C5F85D167CDF0900620409 /* IStoreAssets.h */,
 				C0C5F85E167CDF0900620409 /* JSON */,
 				C0C5F861167CDF0900620409 /* SoomlaiOSStore-Prefix.pch */,
 				C0C5F862167CDF0900620409 /* StoreConfig.h */,

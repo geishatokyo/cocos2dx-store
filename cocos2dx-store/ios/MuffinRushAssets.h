@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 #import <Foundation/Foundation.h>
-#import "IStoreAsssets.h"
+#import "IStoreAssets.h"
 
 extern NSString* const MUFFIN_CURRENCY_ITEM_ID;
 extern NSString* const TENMUFF_PACK_PRODUCT_ID;
@@ -28,7 +28,7 @@ extern NSString* const THOUSANDMUFF_PACK_PRODUCT_ID;
  * You'll need to create you implementation of IStoreAssets so the store will know what are the assets for your specific game.
  */
 
-@interface MuffinRushAssets : NSObject <IStoreAsssets>{
+@interface MuffinRushAssets : NSObject <IStoreAssets>{
     
 }
 
