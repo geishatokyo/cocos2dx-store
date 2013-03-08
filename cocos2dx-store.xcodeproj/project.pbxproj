@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C005144D1650216600078EBB /* EventHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C005144B1650216600078EBB /* EventHandler.cpp */; };
-		C00514501650217300078EBB /* cocos2dx_EventHandlers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C005144E1650217300078EBB /* cocos2dx_EventHandlers.cpp */; };
 		C031BA781635BDBA005F73E3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BA771635BDBA005F73E3 /* QuartzCore.framework */; };
 		C031BA7A1635BDBA005F73E3 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BA791635BDBA005F73E3 /* OpenGLES.framework */; };
 		C031BA7C1635BDBA005F73E3 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BA7B1635BDBA005F73E3 /* OpenAL.framework */; };
@@ -21,14 +20,12 @@
 		C031BAA61635BDBA005F73E3 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C031BAA51635BDBA005F73E3 /* RootViewController.mm */; };
 		C031BAA81635BDBA005F73E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C031BAA71635BDBA005F73E3 /* main.m */; };
 		C031BD271635BDBD005F73E3 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C031BD261635BDBD005F73E3 /* AppDelegate.cpp */; };
-		C031BD481635C4C7005F73E3 /* cocos2dx_StoreController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C031BD471635C4C7005F73E3 /* cocos2dx_StoreController.mm */; };
 		C031BE2B1635C714005F73E3 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BE2A1635C714005F73E3 /* libsqlite3.0.dylib */; };
 		C031BE2D1635C71A005F73E3 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BE2C1635C71A005F73E3 /* StoreKit.framework */; };
 		C031BE2F1635C720005F73E3 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C031BE2E1635C720005F73E3 /* Security.framework */; };
 		C069308F163C86D60037E975 /* libcocos2dx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0B04372163C84860015400E /* libcocos2dx.a */; };
 		C0693091163C876C0037E975 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0693090163C876C0037E975 /* libz.dylib */; };
 		C0693093163C87760037E975 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0693092163C87760037E975 /* libxml2.dylib */; };
-		C06930A1163D86E30037E975 /* cocos2dx_StoreInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = C06930A0163D86E30037E975 /* cocos2dx_StoreInfo.mm */; };
 		C0A7ADE6169D97D800F4F029 /* NonConsumableItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7ADE5169D97D800F4F029 /* NonConsumableItem.m */; };
 		C0B042DC163BFD2B0015400E /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B042D6163BFD2B0015400E /* Icon-72.png */; };
 		C0B042DD163BFD2B0015400E /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C0B042D7163BFD2B0015400E /* Icon-Small-50.png */; };
@@ -42,7 +39,6 @@
 		C0B042F4163BFE960015400E /* StoreBScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0B042EE163BFE960015400E /* StoreBScene.cpp */; };
 		C0B04308163C59700015400E /* iOSHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B04306163C59700015400E /* iOSHelper.mm */; };
 		C0B04310163C5DDE0015400E /* MuffinRushAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B0430F163C5DDE0015400E /* MuffinRushAssets.m */; };
-		C0B0431B163C7B250015400E /* cocos2dx_StoreInventory.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B0431A163C7B250015400E /* cocos2dx_StoreInventory.mm */; };
 		C0B0435E163C83B30015400E /* iphone in Resources */ = {isa = PBXBuildFile; fileRef = C0B0435C163C83B30015400E /* iphone */; };
 		C0B0435F163C83B30015400E /* iphonehd in Resources */ = {isa = PBXBuildFile; fileRef = C0B0435D163C83B30015400E /* iphonehd */; };
 		C0C5F86D167CDF0900620409 /* JSONConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C5F82A167CDF0900620409 /* JSONConsts.m */; };
@@ -80,6 +76,8 @@
 		CD0B95AA16E9D443004328F7 /* cocos2dx_StoreController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A116E9D442004328F7 /* cocos2dx_StoreController.mm */; };
 		CD0B95AB16E9D443004328F7 /* cocos2dx_StoreInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A216E9D442004328F7 /* cocos2dx_StoreInfo.mm */; };
 		CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */; };
+		CD0B95B316E9D956004328F7 /* KeyValDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B016E9D954004328F7 /* KeyValDatabase.m */; };
+		CD0B95B416E9D956004328F7 /* KeyValueStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B216E9D955004328F7 /* KeyValueStorage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,8 +93,6 @@
 /* Begin PBXFileReference section */
 		C005144B1650216600078EBB /* EventHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EventHandler.cpp; path = Classes/EventHandler.cpp; sourceTree = "<group>"; };
 		C005144C1650216600078EBB /* EventHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventHandler.h; path = Classes/EventHandler.h; sourceTree = "<group>"; };
-		C005144E1650217300078EBB /* cocos2dx_EventHandlers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cocos2dx_EventHandlers.cpp; sourceTree = "<group>"; };
-		C005144F1650217300078EBB /* cocos2dx_EventHandlers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_EventHandlers.h; sourceTree = "<group>"; };
 		C031BA731635BDBA005F73E3 /* cocos2dx-store.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cocos2dx-store.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C031BA771635BDBA005F73E3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C031BA791635BDBA005F73E3 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -113,14 +109,11 @@
 		C031BAA71635BDBA005F73E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = "<group>"; };
 		C031BD251635BDBD005F73E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		C031BD261635BDBD005F73E3 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
-		C031BD471635C4C7005F73E3 /* cocos2dx_StoreController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = cocos2dx_StoreController.mm; path = ios/cocos2dx_StoreController.mm; sourceTree = "<group>"; };
 		C031BE2A1635C714005F73E3 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		C031BE2C1635C71A005F73E3 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C031BE2E1635C720005F73E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		C0693090163C876C0037E975 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C0693092163C87760037E975 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		C06930A0163D86E30037E975 /* cocos2dx_StoreInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = cocos2dx_StoreInfo.mm; path = ios/cocos2dx_StoreInfo.mm; sourceTree = "<group>"; };
-		C08CF1C4164165FE007603E8 /* Includes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Includes.h; sourceTree = "<group>"; };
 		C0A7ADE4169D97D800F4F029 /* NonConsumableItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonConsumableItem.h; sourceTree = "<group>"; };
 		C0A7ADE5169D97D800F4F029 /* NonConsumableItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NonConsumableItem.m; sourceTree = "<group>"; };
 		C0B042D3163BFCB50015400E /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
@@ -143,16 +136,9 @@
 		C0B04307163C59700015400E /* iOSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSHelper.h; path = ios/iOSHelper.h; sourceTree = "<group>"; };
 		C0B0430E163C5DDE0015400E /* MuffinRushAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MuffinRushAssets.h; path = ios/MuffinRushAssets.h; sourceTree = "<group>"; };
 		C0B0430F163C5DDE0015400E /* MuffinRushAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MuffinRushAssets.m; path = ios/MuffinRushAssets.m; sourceTree = "<group>"; };
-		C0B0431A163C7B250015400E /* cocos2dx_StoreInventory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = cocos2dx_StoreInventory.mm; path = ios/cocos2dx_StoreInventory.mm; sourceTree = "<group>"; };
 		C0B0435C163C83B30015400E /* iphone */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iphone; path = Resources/iphone; sourceTree = "<group>"; };
 		C0B0435D163C83B30015400E /* iphonehd */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iphonehd; path = Resources/iphonehd; sourceTree = "<group>"; };
 		C0B0436A163C84860015400E /* cocos2dx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2dx.xcodeproj; path = "cocos2dx-store/libs/cocos2dx/proj.ios/cocos2dx.xcodeproj"; sourceTree = "<group>"; };
-		C0C3E20616413CAA00E5C103 /* cocos2dx_InsufficientFundsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_InsufficientFundsException.h; sourceTree = "<group>"; };
-		C0C3E20716413CAA00E5C103 /* cocos2dx_NotEnoughGoodsException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_NotEnoughGoodsException.h; sourceTree = "<group>"; };
-		C0C3E20916413CAA00E5C103 /* cocos2dx_StoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreController.h; sourceTree = "<group>"; };
-		C0C3E20B16413CAA00E5C103 /* cocos2dx_StoreInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreInfo.h; sourceTree = "<group>"; };
-		C0C3E20D16413CAA00E5C103 /* cocos2dx_StoreInventory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_StoreInventory.h; sourceTree = "<group>"; };
-		C0C3E20E16413CAA00E5C103 /* cocos2dx_VirtualItemNotFoundException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cocos2dx_VirtualItemNotFoundException.h; sourceTree = "<group>"; };
 		C0C5F829167CDF0900620409 /* JSONConsts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONConsts.h; sourceTree = "<group>"; };
 		C0C5F82A167CDF0900620409 /* JSONConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONConsts.m; sourceTree = "<group>"; };
 		C0C5F82B167CDF0900620409 /* NonConsumableStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NonConsumableStorage.h; sourceTree = "<group>"; };
@@ -229,6 +215,10 @@
 		CD0B95A116E9D442004328F7 /* cocos2dx_StoreController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreController.mm; sourceTree = "<group>"; };
 		CD0B95A216E9D442004328F7 /* cocos2dx_StoreInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreInfo.mm; sourceTree = "<group>"; };
 		CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = cocos2dx_StoreInventory.mm; sourceTree = "<group>"; };
+		CD0B95AF16E9D954004328F7 /* KeyValDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValDatabase.h; sourceTree = "<group>"; };
+		CD0B95B016E9D954004328F7 /* KeyValDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValDatabase.m; sourceTree = "<group>"; };
+		CD0B95B116E9D955004328F7 /* KeyValueStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueStorage.h; sourceTree = "<group>"; };
+		CD0B95B216E9D955004328F7 /* KeyValueStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueStorage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -334,9 +324,6 @@
 				C031BAA71635BDBA005F73E3 /* main.m */,
 				C0B04306163C59700015400E /* iOSHelper.mm */,
 				C0B04307163C59700015400E /* iOSHelper.h */,
-				C031BD471635C4C7005F73E3 /* cocos2dx_StoreController.mm */,
-				C0B0431A163C7B250015400E /* cocos2dx_StoreInventory.mm */,
-				C06930A0163D86E30037E975 /* cocos2dx_StoreInfo.mm */,
 			);
 			name = ios;
 			sourceTree = "<group>";
@@ -353,7 +340,6 @@
 		C031BD241635BDBD005F73E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C0C3E20516413CAA00E5C103 /* StoreBridge */,
 				C0B042E6163BFE960015400E /* GameMenuItem.cpp */,
 				C0B042E7163BFE960015400E /* GameMenuItem.h */,
 				C005144B1650216600078EBB /* EventHandler.cpp */,
@@ -376,23 +362,6 @@
 				C0B04372163C84860015400E /* libcocos2dx.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C0C3E20516413CAA00E5C103 /* StoreBridge */ = {
-			isa = PBXGroup;
-			children = (
-				C08CF1C4164165FE007603E8 /* Includes.h */,
-				C0C3E20616413CAA00E5C103 /* cocos2dx_InsufficientFundsException.h */,
-				C0C3E20716413CAA00E5C103 /* cocos2dx_NotEnoughGoodsException.h */,
-				C0C3E20916413CAA00E5C103 /* cocos2dx_StoreController.h */,
-				C0C3E20B16413CAA00E5C103 /* cocos2dx_StoreInfo.h */,
-				C0C3E20D16413CAA00E5C103 /* cocos2dx_StoreInventory.h */,
-				C0C3E20E16413CAA00E5C103 /* cocos2dx_VirtualItemNotFoundException.h */,
-				C005144E1650217300078EBB /* cocos2dx_EventHandlers.cpp */,
-				C005144F1650217300078EBB /* cocos2dx_EventHandlers.h */,
-			);
-			name = StoreBridge;
-			path = Classes/StoreBridge;
 			sourceTree = "<group>";
 		};
 		C0C5F827167CDF0900620409 /* SoomlaiOSStore */ = {
@@ -422,6 +391,10 @@
 		C0C5F828167CDF0900620409 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				CD0B95AF16E9D954004328F7 /* KeyValDatabase.h */,
+				CD0B95B016E9D954004328F7 /* KeyValDatabase.m */,
+				CD0B95B116E9D955004328F7 /* KeyValueStorage.h */,
+				CD0B95B216E9D955004328F7 /* KeyValueStorage.m */,
 				C0EFC973168B7F0500948037 /* ObscuredNSUserDefaults.h */,
 				C0EFC974168B7F0500948037 /* ObscuredNSUserDefaults.m */,
 				C0C5F829167CDF0900620409 /* JSONConsts.h */,
@@ -640,17 +613,13 @@
 				C031BAA61635BDBA005F73E3 /* RootViewController.mm in Sources */,
 				C031BAA81635BDBA005F73E3 /* main.m in Sources */,
 				C031BD271635BDBD005F73E3 /* AppDelegate.cpp in Sources */,
-				C031BD481635C4C7005F73E3 /* cocos2dx_StoreController.mm in Sources */,
 				C0B042F1163BFE960015400E /* GameMenuItem.cpp in Sources */,
 				C0B042F2163BFE960015400E /* MainScene.cpp in Sources */,
 				C0B042F3163BFE960015400E /* StoreAScene.cpp in Sources */,
 				C0B042F4163BFE960015400E /* StoreBScene.cpp in Sources */,
 				C0B04308163C59700015400E /* iOSHelper.mm in Sources */,
 				C0B04310163C5DDE0015400E /* MuffinRushAssets.m in Sources */,
-				C0B0431B163C7B250015400E /* cocos2dx_StoreInventory.mm in Sources */,
-				C06930A1163D86E30037E975 /* cocos2dx_StoreInfo.mm in Sources */,
 				C005144D1650216600078EBB /* EventHandler.cpp in Sources */,
-				C00514501650217300078EBB /* cocos2dx_EventHandlers.cpp in Sources */,
 				C0C5F86D167CDF0900620409 /* JSONConsts.m in Sources */,
 				C0C5F86E167CDF0900620409 /* NonConsumableStorage.m in Sources */,
 				C0C5F86F167CDF0900620409 /* StorageManager.m in Sources */,
@@ -687,6 +656,8 @@
 				CD0B95AA16E9D443004328F7 /* cocos2dx_StoreController.mm in Sources */,
 				CD0B95AB16E9D443004328F7 /* cocos2dx_StoreInfo.mm in Sources */,
 				CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */,
+				CD0B95B316E9D956004328F7 /* KeyValDatabase.m in Sources */,
+				CD0B95B416E9D956004328F7 /* KeyValueStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
