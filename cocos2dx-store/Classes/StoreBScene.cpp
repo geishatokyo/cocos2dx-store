@@ -18,7 +18,7 @@
 #include "GameMenuItem.h"
 #include "StoreAScene.h"
 #include "cocos2dx_StoreInventory.h"
-#include "cocos2dx_StoreController.h"
+#include "MuffinStoreController.h"
 #include "cocos2dx_StoreInfo.h"
 #include "Includes.h"
 
@@ -131,7 +131,7 @@ void StoreBScene::menuChooseCallback(CCObject* pSender)
 			if (tag == 0) {
 				
 			} else {
-				cocos2dx_StoreController::getInstance()->buyMarketItem(productId);
+				MuffinStoreController::getInstance()->buyMarketItem(productId);
 			}
 		}
 		catch (cocos2dx_VirtualItemNotFoundException& e) {

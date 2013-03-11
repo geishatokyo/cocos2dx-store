@@ -78,7 +78,7 @@
 		CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95A316E9D442004328F7 /* cocos2dx_StoreInventory.mm */; };
 		CD0B95B316E9D956004328F7 /* KeyValDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B016E9D954004328F7 /* KeyValDatabase.m */; };
 		CD0B95B416E9D956004328F7 /* KeyValueStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B216E9D955004328F7 /* KeyValueStorage.m */; };
-		CD0B95B716E9DE30004328F7 /* MuffinStoreController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B516E9DE30004328F7 /* MuffinStoreController.cpp */; };
+		CD0B95B716E9DE30004328F7 /* MuffinStoreController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CD0B95B516E9DE30004328F7 /* MuffinStoreController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,8 +220,9 @@
 		CD0B95B016E9D954004328F7 /* KeyValDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValDatabase.m; sourceTree = "<group>"; };
 		CD0B95B116E9D955004328F7 /* KeyValueStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyValueStorage.h; sourceTree = "<group>"; };
 		CD0B95B216E9D955004328F7 /* KeyValueStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyValueStorage.m; sourceTree = "<group>"; };
-		CD0B95B516E9DE30004328F7 /* MuffinStoreController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MuffinStoreController.cpp; sourceTree = "<group>"; };
+		CD0B95B516E9DE30004328F7 /* MuffinStoreController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MuffinStoreController.mm; sourceTree = "<group>"; };
 		CD0B95B616E9DE30004328F7 /* MuffinStoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MuffinStoreController.h; sourceTree = "<group>"; };
+		CD0B95B816E9F49E004328F7 /* cocos2dx_MustOverrideException.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cocos2dx_MustOverrideException.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -327,7 +328,7 @@
 				C031BAA71635BDBA005F73E3 /* main.m */,
 				C0B04306163C59700015400E /* iOSHelper.mm */,
 				C0B04307163C59700015400E /* iOSHelper.h */,
-				CD0B95B516E9DE30004328F7 /* MuffinStoreController.cpp */,
+				CD0B95B516E9DE30004328F7 /* MuffinStoreController.mm */,
 				CD0B95B616E9DE30004328F7 /* MuffinStoreController.h */,
 			);
 			name = ios;
@@ -510,6 +511,7 @@
 				CD0B959816E9D442004328F7 /* cocos2dx_EventHandlers.h */,
 				CD0B959916E9D442004328F7 /* cocos2dx_InsufficientFundsException.h */,
 				CD0B959A16E9D442004328F7 /* cocos2dx_NotEnoughGoodsException.h */,
+				CD0B95B816E9F49E004328F7 /* cocos2dx_MustOverrideException.h */,
 				CD0B959B16E9D442004328F7 /* cocos2dx_StoreController.h */,
 				CD0B959C16E9D442004328F7 /* cocos2dx_StoreInfo.h */,
 				CD0B959D16E9D442004328F7 /* cocos2dx_StoreInventory.h */,
@@ -663,7 +665,7 @@
 				CD0B95AC16E9D443004328F7 /* cocos2dx_StoreInventory.mm in Sources */,
 				CD0B95B316E9D956004328F7 /* KeyValDatabase.m in Sources */,
 				CD0B95B416E9D956004328F7 /* KeyValueStorage.m in Sources */,
-				CD0B95B716E9DE30004328F7 /* MuffinStoreController.cpp in Sources */,
+				CD0B95B716E9DE30004328F7 /* MuffinStoreController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

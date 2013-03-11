@@ -22,35 +22,21 @@
 #include "cocos2dx_VirtualItemNotFoundException.h"
 #include "cocos2dx_InsufficientFundsException.h"
 #include "cocos2dx_NotEnoughGoodsException.h"
+#include "cocos2dx_MustOverrideException.h"
 
 using namespace std;
 
 class cocos2dx_StoreController {
-
 public:
-    static cocos2dx_StoreController* getInstance() {
-        if(m_storeController == NULL){
-            m_storeController = new cocos2dx_StoreController();
-        }
-        return m_storeController;
-    }
-    
     //iOS + Android
-    void storeOpening();
-    void storeClosing();
-    void initialize(string customSecret);
-	void buyMarketItem(string productId) throw(cocos2dx_VirtualItemNotFoundException&);
-	void buyVirtualGood(string itemId) throw (cocos2dx_VirtualItemNotFoundException&, cocos2dx_InsufficientFundsException&);
-	void equipVirtualGood(string itemId) throw (cocos2dx_NotEnoughGoodsException&, cocos2dx_VirtualItemNotFoundException&);
-	void unequipVirtualGood(string itemId) throw(cocos2dx_VirtualItemNotFoundException&);
-	
-protected:
-    cocos2dx_StoreController(){}
-    cocos2dx_StoreController(const cocos2dx_StoreController& c);
-    cocos2dx_StoreController& operator=(const cocos2dx_StoreController& c);
-    static cocos2dx_StoreController* m_storeController;
+    virtual void storeOpening();
+    virtual void storeClosing();
+    virtual void initialize(string customSecret) throw(cocos2dx_MustOverrideException&);
+	virtual void buyMarketItem(string productId) throw(cocos2dx_VirtualItemNotFoundException&);
+	virtual void buyVirtualGood(string itemId) throw (cocos2dx_VirtualItemNotFoundException&, cocos2dx_InsufficientFundsException&);
+	virtual void equipVirtualGood(string itemId) throw (cocos2dx_NotEnoughGoodsException&, cocos2dx_VirtualItemNotFoundException&);
+	virtual void unequipVirtualGood(string itemId) throw(cocos2dx_VirtualItemNotFoundException&);
 };
 
-cocos2dx_StoreController* cocos2dx_StoreController::m_storeController = NULL;
 
 #endif /* defined(__cocos2dx_store__cocos2dx_StoreController__) */

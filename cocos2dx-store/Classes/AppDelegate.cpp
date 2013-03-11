@@ -16,7 +16,7 @@
 
 #include "AppDelegate.h"
 #include "MainScene.h"
-#include "cocos2dx_StoreController.h"
+#include "MuffinStoreController.h"
 #include "cocos2dx_EventHandlers.h"
 
 USING_NS_CC;
@@ -36,7 +36,7 @@ bool AppDelegate::applicationDidFinishLaunching() {
     /**
      * The initialization of StoreController. This is the first and ONLY time it's initialized.
      **/
-    cocos2dx_StoreController::getInstance()->initialize("ExampleCustomSecret");
+    MuffinStoreController::getInstance()->initialize("ExampleCustomSecret");
 	cocos2dx_EventHandlers::getInstance()->addHandler(handler);
     
     // initialize director
